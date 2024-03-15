@@ -1,0 +1,58 @@
+    #HomepageDiv {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }  
+
+    #HomepageDiv header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        height: 25vh;
+    }
+
+    .NavigationBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        font-size: 1.8rem;
+    }
+
+    #HomepageText {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        padding: 4vh 5vw;
+    } 
+
+    #HomepageText p {
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    } 
+
+    #HomepageDiv footer {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        background-color: black;
+        color: white;
+        padding: 8vh 5vw;
+        font-size: 1.3rem;
+    }
+
+    #HomepageDiv header h1 {
+        text-align: center;
+        font-size: 4rem;
+
+    }
+
+    #HomepageDiv .NavigationBar div a {
+        text-decoration: none;
+        color: inherit;
+    }
